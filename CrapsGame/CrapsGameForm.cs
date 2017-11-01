@@ -20,7 +20,7 @@ namespace CrapsGame
         private enum RollDiceButtonStatus
         {
             Wager, FirstRoll, NextRoll, Reset
-        }//end enum
+        }//end enum RollDiceButtonStatus
 
         CrapsGame Game = new CrapsGame();//CrapsGame object
         private static int bankBalance = 1000;//initial bankBalance
